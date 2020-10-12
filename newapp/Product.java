@@ -78,11 +78,16 @@ public class Product
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter ID,Name,Brand,Category,Price");
-		String id = sc.nextLine();
-		String name = sc.nextLine();
-		String brand = sc.nextLine();
-		String cat = sc.nextLine();
-		float price = sc.nextFloat();
+                if(Scanner.hasNextLine())
+			String id = sc.nextLine();
+		if(Scanner.hasNextLine())
+			String name = sc.nextLine();
+		if(Scanner.hasNextLine())
+			String brand = sc.nextLine();
+		if(Scanner.hasNextLine())
+			String cat = sc.nextLine();
+		if(Scanner.hasNextFloat())
+			float price = sc.nextFloat();
 		
 		Product p1 = new Product(id,name,brand,cat,price);
 		p1.updateRating(5);
