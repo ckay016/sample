@@ -93,7 +93,7 @@ public class Product
 		*/
 
 		//Product p1 = new Product(7,name,brand,cat,price);
-		Product p1 = new Product("1","Charan","Human","Human",7000.0);
+		Product p1 = new Product("1","Charan","Human","Human",700);
 		p1.updateRating(5);
 		p1.updateRating(4);
 		p1.updateRating(3);
