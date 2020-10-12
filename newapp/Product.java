@@ -76,7 +76,7 @@ public class Product
 
 	public static void main(String[] args)
 	{
-		Scanner sc = new Scanner(System.in);
+		static Scanner sc = new Scanner(System.in);
 		System.out.println("Enter ID,Name,Brand,Category,Price");
 		String id,name,brand,cat;
 		float price;
