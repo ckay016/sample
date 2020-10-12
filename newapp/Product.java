@@ -76,11 +76,11 @@ public class Product
 
 	public static void main(String[] args)
 	{
-		static Scanner sc = new Scanner(System.in);
+		//static Scanner sc = new Scanner(System.in);
 		System.out.println("Enter ID,Name,Brand,Category,Price");
 		String id,name,brand,cat;
 		float price;
-                if(Scanner.hasNextLine())
+                /*if(Scanner.hasNextLine())
 			id = sc.nextLine();
 		if(Scanner.hasNextLine())
 			name = sc.nextLine();
@@ -90,8 +90,10 @@ public class Product
 			cat = sc.nextLine();
 		if(Scanner.hasNextFloat())
 			price = sc.nextFloat();
-		
-		Product p1 = new Product(id,name,brand,cat,price);
+		*/
+
+		//Product p1 = new Product(7,name,brand,cat,price);
+		Product p1 = new Product("1","Charan","Human","Human",7000.0);
 		p1.updateRating(5);
 		p1.updateRating(4);
 		p1.updateRating(3);
